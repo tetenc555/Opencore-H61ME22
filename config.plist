@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <key>#WARNING - 1</key>
-        <string>This is just a sample. Do NOT try loading it.</string>
-        <key>#WARNING - 2</key>
-        <string>Ensure you understand EVERY field before booting.</string>
-        <key>#WARNING - 3</key>
-        <string>In most cases recommended to use Sample.plist</string>
-        <key>#WARNING - 4</key>
-        <string>Use SampleCustom.plist only for special cases.</string>
         <key>ACPI</key>
         <dict>
             <key>Add</key>
@@ -188,6 +180,17 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>compatible</key>
+                    <string>pci1002,67FF</string>
+                    <key>device-id</key>
+                    <data>/2cAAA==</data>
+                    <key>model</key>
+                    <string>AMD Radeon RX 550</string>
+                    <key>no-gfx-spoof</key>
+                    <data>AQAAAA==</data>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x16,0x0)</key>
                 <dict>
                     <key>device-id</key>
@@ -1014,7 +1017,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 alcid=11</string>
+                    <string>-v keepsyms=1 debug=0x100 alcid=11 -radcodec</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
