@@ -30,16 +30,24 @@
                     <key>Path</key>
                     <string>SSDT-IMEI.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PM.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
                 <dict>
                     <key>All</key>
-                    <false/>
+                    <true/>
                     <key>Comment</key>
                     <string>Delete CpuPm</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>OemTableId</key>
                     <data>Q3B1UG0AAAA=</data>
                     <key>TableLength</key>
@@ -49,11 +57,11 @@
                 </dict>
                 <dict>
                     <key>All</key>
-                    <false/>
+                    <true/>
                     <key>Comment</key>
                     <string>Delete Cpu0Ist</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>OemTableId</key>
                     <data>Q3B1MElzdAA=</data>
                     <key>TableLength</key>
@@ -245,7 +253,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.5.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
