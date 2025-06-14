@@ -10,3 +10,5 @@
 > [!TIP]
 > If your setup is close to mine and has just some different parts (mainly the processor/graphics card) you can probably tweak this repo a little bit to make it work!
 
+## What works
+Really almost everything. It will wake up from usb and all! It just crashes when waking up from sleep. Mapped USB and everything. Dont really know what is wrong with it, and im not messing with it anymore sadly as i had to change my mobo. It was a really snappy build tho! I wish it lived more ~
